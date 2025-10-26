@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- Start Gazebo with our hills world but with flat terrain -->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(find iq_sim)/worlds/hills.world"/>
+    <arg name="paused" value="false"/>
+    <arg name="use_sim_time" value="true"/>
+    <arg name="gui" value="true"/>
+    <arg name="headless" value="false"/>
+    <arg name="debug" value="false"/>
+    <arg name="verbose" value="true"/>
+  </include>
+
+  <!-- Spawn IRIS drone with ArduPilot SITL control -->
+  <include file="$(find iq_sim)/launch/spawn_drone.launch">
+    <arg name="x" value="0"/>
+    <arg name="y" value="0"/>
+    <!-- Adjust initial height for flat ground -->
+    <arg name="z" value="0.2"/>
+  </include>
+
+  <!-- Add camera for detecting objects -->
+  <node name="spawn_camera" pkg="gazebo_ros" type="spawn_model"
+        args="-file $(find iq_sim)/models/depth_camera.sdf 
+              -sdf -model depth_camera 
+              -x 5 -y 0 -z 2.0
+              -R 0 -P 0.7 -Y 0" />
+
+  <!-- Option to load YOLOv5 object detection -->
+  <arg name="start_yolov5" default="false" />
+  <group if="$(arg start_yolov5)">
+    <node name="yolov5_detect" pkg="obj_detect" type="yolov5_ros.py" output="screen"/>
+  </group>
+
+</launch>

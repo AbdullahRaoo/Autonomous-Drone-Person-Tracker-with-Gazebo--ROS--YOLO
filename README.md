@@ -38,6 +38,8 @@ This project implements an autonomous drone system capable of:
 
 The system uses **Multi-Object Tracking (MOT)** with ByteTrack algorithm to maintain persistent tracking even through occlusions and detection failures.
 
+![System Overview](./Woooorkflow_Droneee.png)
+
 ---
 
 ## ✨ Features

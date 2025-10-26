@@ -1,10 +1,11 @@
 # ROS/Catkin build artifacts
 build/
-devel/
-logs/
 build_isolated/
+devel/
 devel_isolated/
 install_isolated/
+logs/
+.catkin_workspace
 
 # Python
 __pycache__/
@@ -12,19 +13,21 @@ __pycache__/
 *$py.class
 *.so
 .Python
-*.egg-info/
-dist/
-*.egg
 venv/
 env/
 ENV/
+*.egg-info/
+.eggs/
 
-# YOLOv5
+# YOLOv5 specific
 *.pt
+*.pth
 *.onnx
 *.torchscript
+*.mlmodel
 *.tflite
 *.pb
+*.engine
 runs/
 wandb/
 
@@ -39,9 +42,11 @@ wandb/
 .DS_Store
 Thumbs.db
 
-# Logs
+# Logs and databases
 *.log
+*.sqlite
 
-# Cache
-.cache/
-*.pkl
+# Temporary files
+*.tmp
+*.bak
+*.cache

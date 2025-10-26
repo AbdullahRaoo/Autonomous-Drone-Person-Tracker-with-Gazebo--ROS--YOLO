@@ -1,0 +1,47 @@
+# ROS/Catkin build artifacts
+build/
+devel/
+logs/
+build_isolated/
+devel_isolated/
+install_isolated/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+*.egg
+venv/
+env/
+ENV/
+
+# YOLOv5
+*.pt
+*.onnx
+*.torchscript
+*.tflite
+*.pb
+runs/
+wandb/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Cache
+.cache/
+*.pkl

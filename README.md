@@ -6,9 +6,7 @@
 
 ## 🎥 Demo Video
 
-[![Demo Video](https://img.shields.io/badge/▶️-Watch_Demo-red?style=for-the-badge&logo=youtube)](https://github.com/AbdullahRaoo/Autonomous-Drone-Person-Tracker-with-Gazebo--ROS--YOLO/blob/20ea237878a3d56f06ad60d269a34b4b606bae49/Demo_Video.mp4)
-
-[📥 Download Demo Video](https://github.com/AbdullahRaoo/Autonomous-Drone-Person-Tracker-with-Gazebo--ROS--YOLO/raw/20ea237878a3d56f06ad60d269a34b4b606bae49/Demo_Video.mp4)
+https://github.com/user-attachments/assets/841a7ea1-2277-4efb-b34f-da88efb6ba4d
 
 *Watch the autonomous drone in action: detection, tracking, approach, and hover.*
 

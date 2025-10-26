@@ -1,7 +1,3 @@
-# Large media files
-Demo.mp4
-*.mp4
-
 # ROS/Catkin build artifacts
 build/
 build_isolated/

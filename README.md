@@ -6,7 +6,7 @@
 
 ## 🎥 Demo Video
 
-https://github.com/user-attachments/assets/Demo.mp4
+https://github.com/user-attachments/assets/Demo_Video.mp4
 
 *Watch the autonomous drone in action: detection, tracking, approach, and hover.*
 

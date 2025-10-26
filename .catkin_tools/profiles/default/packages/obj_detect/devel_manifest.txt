@@ -1,0 +1,5 @@
+obj_detect
+/home/abdullah/catkin_ws/devel/.private/obj_detect/lib/obj_detect/drone_person_tracker.py /home/abdullah/catkin_ws/devel/lib/obj_detect/drone_person_tracker.py
+/home/abdullah/catkin_ws/devel/.private/obj_detect/lib/pkgconfig/obj_detect.pc /home/abdullah/catkin_ws/devel/lib/pkgconfig/obj_detect.pc
+/home/abdullah/catkin_ws/devel/.private/obj_detect/share/obj_detect/cmake/obj_detectConfig.cmake /home/abdullah/catkin_ws/devel/share/obj_detect/cmake/obj_detectConfig.cmake
+/home/abdullah/catkin_ws/devel/.private/obj_detect/share/obj_detect/cmake/obj_detectConfig-version.cmake /home/abdullah/catkin_ws/devel/share/obj_detect/cmake/obj_detectConfig-version.cmake

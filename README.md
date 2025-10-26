@@ -8,7 +8,7 @@
 
 https://github.com/user-attachments/assets/841a7ea1-2277-4efb-b34f-da88efb6ba4d
 
-*Watch the autonomous drone in action: detection, tracking, approach, and hover.*
+*Watch the autonomous drone in action: detection, tracking, approach, hover for 10 sec and land back to it's initial position.*
 
 ---
 

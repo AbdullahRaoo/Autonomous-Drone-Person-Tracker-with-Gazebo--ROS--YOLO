@@ -1,4 +1,4 @@
-# Autonomous Drone Person Tracker with YOLOv5 + MOT
+# Autonomous Drone Person Tracker and First Aid Supplier with Gazebo | ROS | YOLO
 
 **An intelligent drone system that autonomously tracks and follows a person using computer vision and multi-object tracking.**
 
